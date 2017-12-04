@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formularz Szkolenie</title>
+</head>
+
+<body>
+   
+    <!--   Formularz Kontaktowy-->
+    
+    <form action="https://formspree.io/your@email.com" method="POST"></form>
+    <p class="form">
+    <h1 class="about-form">FORMULARZ KONTAKTOWY</h1>
+    <p class="gray">
+    <label for="name">Imię</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="surname">Nazwisko</label>
+    <input type="text" id="surname" name="surname"><br><br>
+    <label for="tel">Telefon</label>
+    <input type="text" id="tel" name="tel"><br><br>
+    
+    <!--    Wybór Miasta-->
+    
+    <label for="city">Wybierz Miasto</label>
+    <select name="" id="city"><br><br>
+    <option value="Kraków">Kraków</option>
+    <option value="Warszawa">Warszawa</option>
+    <option value="Gdańsk">Gdańsk</option>
+    </select>
+    <br><br>
+    <!--    Wybieramy Płeć-->
+    
+    <input type="radio" name="Płeć" value="Kobieta" />Kobieta
+    <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+    <br><br>
+    <!--Zgoda na dane osobowe checkbox-->
+
+    <input type="checkbox" name="" value="dane" />Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). 
+    <br><br>
+    
+    <!--Pole wiadomoście textarea-->
+    <label for="message"></label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <input type="submit" value="wyślij">
+</body>
+
+</html>
